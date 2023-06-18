@@ -1,0 +1,16 @@
+{
+  "recetas": [
+    {
+      "id": 1,
+      "nombreReceta": "pizza",
+      "precio": 2800,
+      "descripcion": "alguna descripcion...",
+      "categoria": "comida",
+      "imagen": "https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "author": "typicode"
+    }
+  ],
+    "usuarios": [
+      { "id": 1, "nombreUsuario": "admin", "email": "admin@rollingcode.com", "password": "123456aA$" }
+    ]
+}
