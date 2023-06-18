@@ -1,6 +1,5 @@
 import { Button, Form } from "react-bootstrap";
 
-
 const crearReceta = () => {
   return (
     <section className="container mainSection">
@@ -9,7 +8,7 @@ const crearReceta = () => {
       <Form>
         <Form.Group className="mb-3" controlId="formNombreProdcuto">
           <Form.Label>Producto*</Form.Label>
-          <Form.Control type="text" placeholder="Ej: Cafe" />
+          <Form.Control type="text" placeholder="Ej: Pizza" />
           <Form.Text className="text-danger"></Form.Text>
         </Form.Group>
         <Form.Group className="mb-3" controlId="formPrecio">
@@ -27,8 +26,7 @@ const crearReceta = () => {
         </Form.Group>
         <Form.Group className="mb-3" controlId="formPrecio">
           <Form.Label>Categoria*</Form.Label>
-          <Form.Select
-          >
+          <Form.Select>
             <option value="">Seleccione una opcion</option>
             <option value="comida">Comida</option>
             <option value="ensalada">Ensalada</option>
