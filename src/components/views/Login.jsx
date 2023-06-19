@@ -10,11 +10,15 @@ const Login = () => {
     reset,
   } = useForm();
 
-  login();
-
   const onSubmit = (usuario) => {
-    console.log(usuario);
-    
+    login(usuario).then((respuesta)=>{
+      console.log(respuesta);
+      if(respuesta){
+        console.log(respuesta)
+      }else{
+        console.log(respuesta)
+      }
+    })
   };
 
   return (
@@ -49,7 +53,8 @@ const Login = () => {
                 {...register("password", {
                   required: "La contraseña es obligatoria.",
                   pattern: {
-                    value: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,15}$/,
+                    value:
+                      /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,15}$/,
                     message:
                       "La contraseña debe tener almenos: una mayúscula, una minúscula, número, caracter especial (@) y de 8 a 15 caracteres.",
                   },
