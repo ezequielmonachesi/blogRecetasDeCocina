@@ -17,7 +17,6 @@ const Login = ({setUsuarioLogueado}) => {
   const onSubmit = (usuario) => {
     login(usuario).then((respuesta)=>{
       if(respuesta){
-        console.log(respuesta);
         sessionStorage.setItem('usuario', JSON.stringify(respuesta));
         setUsuarioLogueado(respuesta);
         navegacion('/administrador');

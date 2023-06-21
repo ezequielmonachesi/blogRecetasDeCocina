@@ -18,7 +18,6 @@ const EditarReceta = () => {
 
   useEffect(()=>{
     getReceta(id).then((respuesta)=>{
-      console.log(respuesta);
       setValue('nombreReceta', respuesta.nombreReceta)
       setValue('resenia',respuesta.resenia)
       setValue('ingredientes', respuesta.ingredientes)
@@ -29,7 +28,6 @@ const EditarReceta = () => {
   }, [])
 
   const onSubmit = (nuevaReceta) => {
-    console.log(nuevaReceta);
     editarReceta(nuevaReceta, id).then((respuesta)=>{
       if(respuesta && respuesta.status === 200){
         Swal.fire('Receta modificada', `La receta ${nuevaReceta.nombreReceta} fue modificada correctamente`, 'success');

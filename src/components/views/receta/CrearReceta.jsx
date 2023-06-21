@@ -13,7 +13,6 @@ const crearReceta = () => {
   } = useForm();
 
   const onSubmit = (nuevaReceta) => {
-    console.log(nuevaReceta);
     agregarReceta(nuevaReceta).then((respuesta)=>{
       if(respuesta && respuesta.status === 201){
         Swal.fire('Receta creada', `La receta ${nuevaReceta.nombreReceta} fue creada correctamente`, 'success');

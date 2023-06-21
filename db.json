@@ -26,6 +26,15 @@
       "descripcion": "Tienes que picar la lechuga, cortar le tomate, hacer el huevoy despues agregar queso, mezclaro todo con unpoco de aceite",
       "categoria": "ensalada",
       "id": 5
+    },
+    {
+      "nombreReceta": "Suprema Maryland",
+      "resenia": "Ríquisma suprema para compartir!",
+      "imagen": "https://assets.elgourmet.com/wp-content/uploads/2023/03/c54074f8ec1cfaf6dd1ce3e53346d08d_3_3_photo-1024x683.png.webp",
+      "ingredientes": "Tomillo, Perejil, Aceite para freir, Huevos, Supremas de pollo, Sal y pimienta, Romero, Harina, Limón.",
+      "descripcion": "Elimine la piel de las supremas y salpimente.\nRalle la cáscara del limón.\nBata los huevos con sal, la ralladura de limón, perejil picado, romero picado, tomillo picado.\nPase las supremas por harina, luego por los huevos batidos y a continuación por el panko.\nVuelva a pasa las supremas por el huevo y el panko.\nFría en abundante aceite caliente.\nEscurra sobre papel absorbente",
+      "categoria": "carne",
+      "id": 6
     }
   ],
   "usuarios": [

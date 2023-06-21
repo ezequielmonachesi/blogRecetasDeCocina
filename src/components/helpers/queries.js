@@ -12,11 +12,9 @@ export const login = async (usuario) => {
       if (usuarioBuscado.password === usuario.password) {
         return usuarioBuscado;
       } else {
-        console.log("La contraseña es incorrecta");
         return null;
       }
     } else {
-      console.log("El mail no fue encontrado");
       return null;
     }
   } catch (error) {
