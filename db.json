@@ -11,22 +11,21 @@
       "author": "typicode"
     },
     {
-      "id": 3,
-      "nombreReceta": "Salsa",
-      "resenia": "Reseña de la comida",
+      "nombreReceta": "Salsa de tomate ",
+      "resenia": "",
+      "imagen": "https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "ingredientes": "algunos ingredientes",
       "descripcion": "alguna descripcion...",
-      "categoria": "comida",
-      "imagen": "https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "author": "typicode"
+      "categoria": "pastas",
+      "id": 3
     },
     {
-      "nombreReceta": "Ensalada nutritica",
+      "nombreReceta": "Ensalada nutritica de proteinas asdasd",
       "resenia": "sdasdasdasdasdasdadasdasd",
       "imagen": "https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg",
       "ingredientes": "asdaskdmañskdmkñ2m13ed2k31mdk",
-      "descripcion": "ñdmsñlf,sdñlf,ñsdl,fdñslf,ñdslf,",
-      "categoria": "ensalada",
+      "descripcion": "ññññññññññññññññññññññññññññññññññññ",
+      "categoria": "pastas",
       "id": 5
     }
   ],

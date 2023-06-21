@@ -2,7 +2,8 @@ import { useEffect } from "react";
 import { Button, Form } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 import { useParams } from "react-router-dom";
-import { getReceta } from "../../helpers/queries";
+import { editarReceta, getReceta } from "../../helpers/queries";
+import Swal from "sweetalert2";
 
 const EditarReceta = () => {
   const {
@@ -29,6 +30,15 @@ const EditarReceta = () => {
 
   const onSubmit = (nuevaReceta) => {
     console.log(nuevaReceta);
+    editarReceta(nuevaReceta, id).then((respuesta)=>{
+      if(respuesta && respuesta.status === 200){
+        Swal.fire('Receta modificada', `La receta ${nuevaReceta.nombreReceta} fue modificada correctamente`, 'success');
+        reset();
+      }else{
+        Swal.fire('Ocurrió un error', `La receta ${nuevaReceta.nombreReceta} no fue modificada. Intentelo más tarde`, 'error');
+      }
+    })
+
   };
 
   return (
