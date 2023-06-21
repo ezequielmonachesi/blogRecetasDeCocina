@@ -32,8 +32,7 @@ function App() {
           element={<Login setUsuarioLogueado={setUsuarioLogueado}></Login>}
         ></Route>
         <Route
-          exact
-          path="/detalle"
+          path="/detalle/:id"
           element={<DetalleReceta></DetalleReceta>}
         ></Route>
         <Route

@@ -1,4 +1,5 @@
 import { Button, Card, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const CardReceta = ({receta}) => {
   return (
@@ -11,7 +12,7 @@ const CardReceta = ({receta}) => {
         <Card.Body>
           <Card.Title>{receta.nombreReceta}</Card.Title>
           <Card.Text>{receta.resenia}</Card.Text>
-          <Button variant="dark">Ver detalle</Button>
+          <Link className="btn btn-dark" to={'/detalle/'+receta.id}>Ver detalle</Link>
         </Card.Body>
       </Card>
     </Col>
