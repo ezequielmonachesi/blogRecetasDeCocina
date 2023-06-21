@@ -1,8 +1,9 @@
-import { Button, Table } from "react-bootstrap";
+import { Table } from "react-bootstrap";
 import ItemReceta from "./receta/ItemReceta";
 import { useEffect, useState } from "react";
 import { getRecetas } from "../helpers/queries";
 import Swal from "sweetalert2";
+import { Link } from "react-router-dom";
 
 const Administrador = () => {
   const [listaDeRecetas, setListaDeRecetas] = useState([]);
@@ -21,9 +22,9 @@ const Administrador = () => {
     <section className="container mainSection">
       <div className="d-flex justify-content-between align-items-center mt-5">
         <h1 className="display-4 ">Productos disponibles</h1>
-        <Button className="btn btn-primary" to="/administrar/crear">
+        <Link className="btn btn-dark" to="/administrador/crear-receta">
           Agregar
-        </Button>
+        </Link>
       </div>
       <hr />
       <Table responsive striped bordered hover>

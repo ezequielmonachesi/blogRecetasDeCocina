@@ -5,7 +5,9 @@ export const login = async (usuario) => {
   try {
     const respuesta = await fetch(URL_usuario);
     const listaUsuarios = await respuesta.json();
-    const usuarioBuscado = listaUsuarios.find(itemUsuario =>itemUsuario.email === usuario.email);
+    const usuarioBuscado = listaUsuarios.find(
+      (itemUsuario) => itemUsuario.email === usuario.email
+    );
     if (usuarioBuscado) {
       if (usuarioBuscado.password === usuario.password) {
         return usuarioBuscado;
@@ -22,13 +24,27 @@ export const login = async (usuario) => {
   }
 };
 
-export const getRecetas = async () =>{
-    try{
-      const respuesta = await fetch (URL_productos);
-      const listaRecetas = await respuesta.json();
-      return listaRecetas;
+export const getRecetas = async () => {
+  try {
+    const respuesta = await fetch(URL_productos);
+    const listaRecetas = await respuesta.json();
+    return listaRecetas;
+  } catch (error) {
+    console.log(error);
+  }
+};
 
-    }catch(error){
-      console.log(error);
-    }
-}
+export const agregarReceta = async (nuevaReceta) => {
+  try {
+    const respuesta = await fetch(URL_productos, {
+      method: "POST",
+      headers: {
+        "Content-Type":"application/json"
+      },
+      body: JSON.stringify(nuevaReceta)
+    });
+    return respuesta;
+  } catch (error) {
+    console.log(error);
+  }
+};

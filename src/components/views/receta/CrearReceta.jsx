@@ -1,5 +1,8 @@
 import { Button, Form } from "react-bootstrap";
 import { useForm } from "react-hook-form";
+import Swal from "sweetalert2";
+import { agregarReceta } from "../../helpers/queries";
+
 
 const crearReceta = () => {
   const {
@@ -11,6 +14,14 @@ const crearReceta = () => {
 
   const onSubmit = (nuevaReceta) => {
     console.log(nuevaReceta);
+    agregarReceta(nuevaReceta).then((respuesta)=>{
+      if(respuesta && respuesta.status === 201){
+        Swal.fire('Receta creada', `La receta ${nuevaReceta.nombreReceta} fue creada correctamente`, 'success');
+        reset();
+      }else{
+        Swal.fire('Ocurrió un error', `La receta ${nuevaReceta.nombreReceta} no fue creada. Intentelo más tarde`, 'error');
+      }
+    })
   };
 
   return (

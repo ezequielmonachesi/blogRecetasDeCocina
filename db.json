@@ -29,6 +29,34 @@
       "categoria": "comida",
       "imagen": "https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "author": "typicode"
+    },
+    {
+      "nombreReceta": "Fideos",
+      "resenia": "Reseña de la comida",
+      "ingredientes": "Harina con huevos",
+      "descripcion": "tremendo fideo papu",
+      "categoria": "pasta",
+      "imagen": "https://images.pexels.com/photos/5907896/pexels-photo-5907896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "author": "typicode",
+      "id": 4
+    },
+    {
+      "nombreReceta": "Ensalada nutritica",
+      "resenia": "sdasdasdasdasdasdadasdasd",
+      "imagen": "https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg",
+      "ingredientes": "asdaskdmañskdmkñ2m13ed2k31mdk",
+      "descripcion": "ñdmsñlf,sdñlf,ñsdl,fdñslf,ñdslf,",
+      "categoria": "ensalada",
+      "id": 5
+    },
+    {
+      "nombreReceta": "wok",
+      "resenia": "wokwokwokwokwowkwokwowhttps://images.pexels.com/photos/3054690/pexels-photo-3054690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "imagen": "https://images.pexels.com/photos/3054690/pexels-photo-3054690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "ingredientes": "wokwowkowkwokowkowkwokwowkow",
+      "descripcion": "wokwokwowkowkowkowkwokwowk",
+      "categoria": "cerdo",
+      "id": 6
     }
   ],
   "usuarios": [
