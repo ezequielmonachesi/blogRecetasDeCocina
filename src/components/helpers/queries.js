@@ -49,15 +49,10 @@ export const agregarReceta = async (nuevaReceta) => {
   }
 };
 
-export const borrarReceta = async (nuevaReceta) => {
+export const borrarReceta = async (id) => {
   try {
-    const respuesta = await fetch(URL_productos, {
-      method: "POST",
-      headers: {
-        "Content-Type":"application/json"
-      },
-      body: JSON.stringify(nuevaReceta)
-    });
+    const respuesta = await fetch(URL_productos+'/'+id, {
+      method: "DELETE"});
     return respuesta;
   } catch (error) {
     console.log(error);
