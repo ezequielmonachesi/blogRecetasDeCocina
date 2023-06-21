@@ -153,6 +153,9 @@ const EditarReceta = () => {
             })}
           >
             <option value="">Seleccione una categoria</option>
+            <option value="pizza">Pizza</option>
+            <option value="tarta">Tarta</option>
+            <option value="pescado">Pescado</option>
             <option value="carne">Carne</option>
             <option value="cerdo">Cerdo</option>
             <option value="ensalada">Ensalada</option>

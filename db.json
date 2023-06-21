@@ -10,20 +10,20 @@
       "id": 2
     },
     {
-      "nombreReceta": "Salsa de tomate ",
-      "resenia": "",
-      "imagen": "https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "ingredientes": "algunos ingredientes",
-      "descripcion": "alguna descripcion...",
-      "categoria": "pastas",
+      "nombreReceta": "Chicago Pizza",
+      "resenia": "Aprende a preparar esta receta de Chicago Pizza, por Hermanos Petersen en elGourmet",
+      "imagen": "https://assets.elgourmet.com/wp-content/uploads/2023/03/chica_T3YimQ5cHVfq8x7KI9MJNzlvreXLBu-1024x683.png.webp",
+      "ingredientes": "Aceite de oliva, Agua, Azúcar, Harina, Levadura, Manteca, Harina de maíz, Sal, Muzarella fior di late, Muzarella rallada, Chistorra, Queso provolone, Dientes de ajo, Azúcar, Aji molido, Albahaca, Orégano, Salsa de tomate, Pimienta.",
+      "descripcion": "Masa\nEn batidora con gancho amasador colocar agua, azúcar, levadura seca, aceite de oliva, harina de maíz, sal y mezclar.\nAgregar harina y trabajar a baja velocidad hasta integrar y formar un bollo.\nDejar levar por 90 minutos tapado y luego separar en 2 bollos (1 de 400 gramos y 1 de 300 gramos)\nSalsa de tomate\nEn cacerola con aceite de oliva rehogar ajo picado, anchoas, orégano, ají molido y luego de 2 minutos agregar salsa de tomates, sal, pimienta, azúcar y hojas de albahaca.\nDejar espesar a fuego suave por 25 minutos.\nDejar enfriar.\nArmado\nEstirar el bollo grande con palote de un diámetro y forrar un molde pizzero alto (base y paredes dejando que sobre masa ) con aceite de oliva en la base.\nAgregar chistorra en rodajas, muzarella rallada, muzarella fior di latte y provolone rallado.\nEstirar el bollo restante , cubrir el molde uniendo bien los bordes y cubriendo con salsa de tomates.\nRetirar los excesos de masa en los bordes y cocinar en horno a 180° C por 25 minutos.",
+      "categoria": "pizza",
       "id": 3
     },
     {
-      "nombreReceta": "Ensalada",
-      "resenia": "es una linda ensalada para acompañar con una carne, cerdo o pescado.",
-      "imagen": "https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg",
-      "ingredientes": "lechuga, tomate, huevo, queso.",
-      "descripcion": "Tienes que picar la lechuga, cortar le tomate, hacer el huevoy despues agregar queso, mezclaro todo con unpoco de aceite",
+      "nombreReceta": "Ensalada Waldorf",
+      "resenia": "Aprende a preparar esta receta de Ensalada Waldorf, por Gonzalo D´Ambrosio en elGourmet",
+      "imagen": "https://assets.elgourmet.com/wp-content/uploads/2023/03/ensal_18ioGhnweKIH5bODQCENLzAWgp07rX-1024x683.png.webp",
+      "ingredientes": "Apio, Lechuga iceberg, Manzanas granny-smith, Nueces pecanas, Uvas pasas rubias, Sal y pimienta, Jugo De Limón, Aceite de oliva suave,Yema de huevo.",
+      "descripcion": "Para comenzar, limpiamos bien la lechuga, reservamos. Luego, limpiamos el apio y cortamos en trocitos finos. Limpiamos las manzanas y cortamos en cubitos.\nLuego, preparamos la mayonesa emulsionando la yema (con la sal y un poco de pimienta) y el jugo de limón y agregando, de a poco y en forma de hilo, el aceite de oliva suave. Con menos de una taza, para una yema grande, será suficiente.\nCondimentamos todos los ingredientes con la mayonesa y presentamos en un plato con la lechuga cortada en trozos. Espolvoreamos con nueces y pasas.\nServimos.\nNota : esta mayonesa está preparada para ser consumida rápidamente. De lo contrario, se sugiere utilizar otro tipo de mayonesa.",
       "categoria": "ensalada",
       "id": 5
     },
