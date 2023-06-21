@@ -1,16 +1,16 @@
 import { Button, Card, Col } from "react-bootstrap";
 
-const CardReceta = () => {
+const CardReceta = ({receta}) => {
   return (
     <Col md={4} ld={3} className="mb-3">
-      <Card>
+      <Card className="h-100">
         <Card.Img
           variant="top"
-          src="https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          src={receta.imagen}
         />
         <Card.Body>
-          <Card.Title>Pizza</Card.Title>
-          <Card.Text>$1.740,00</Card.Text>
+          <Card.Title>{receta.nombreReceta}</Card.Title>
+          <Card.Text>{receta.resenia}</Card.Text>
           <Button variant="dark">Ver detalle</Button>
         </Card.Body>
       </Card>

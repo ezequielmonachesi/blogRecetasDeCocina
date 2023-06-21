@@ -20,12 +20,12 @@
       "id": 3
     },
     {
-      "nombreReceta": "Ensalada nutritica de proteinas asdasd",
-      "resenia": "sdasdasdasdasdasdadasdasd",
+      "nombreReceta": "Ensalada",
+      "resenia": "es una linda ensalada para acompañar con una carne, cerdo o pescado.",
       "imagen": "https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg",
-      "ingredientes": "asdaskdmañskdmkñ2m13ed2k31mdk",
-      "descripcion": "ññññññññññññññññññññññññññññññññññññ",
-      "categoria": "pastas",
+      "ingredientes": "lechuga, tomate, huevo, queso.",
+      "descripcion": "Tienes que picar la lechuga, cortar le tomate, hacer el huevoy despues agregar queso, mezclaro todo con unpoco de aceite",
+      "categoria": "ensalada",
       "id": 5
     }
   ],
