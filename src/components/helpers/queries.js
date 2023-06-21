@@ -58,3 +58,28 @@ export const borrarReceta = async (id) => {
     console.log(error);
   }
 };
+
+export const getReceta = async (id) => {
+  try {
+    const respuesta = await fetch(URL_productos+'/'+id);
+    const receta = await respuesta.json();
+    return receta;
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export const editarReceta = async (nuevaReceta, id) => {
+  try {
+    const respuesta = await fetch(URL_productos+'/'+id, {
+      method: "PUT",
+      headers: {
+        "Content-Type":"application/json"
+      },
+      body: JSON.stringify(nuevaReceta)
+    });
+    return respuesta;
+  } catch (error) {
+    console.log(error);
+  }
+};

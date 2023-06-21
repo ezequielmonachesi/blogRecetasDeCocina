@@ -1,6 +1,7 @@
 import { Button } from "react-bootstrap";
 import { borrarReceta, getRecetas } from "../../helpers/queries";
 import Swal from "sweetalert2";
+import { Link } from "react-router-dom";
 
 const ItemReceta = ({ receta, setListaDeRecetas }) => {
   const eliminarReceta = () => {
@@ -30,7 +31,7 @@ const ItemReceta = ({ receta, setListaDeRecetas }) => {
       <td>{receta.imagen}</td>
       <td>{receta.categoria}</td>
       <td>
-        <Button className="btn btn-warning">Editar</Button>
+        <Link className="btn btn-warning" to={'/administrador/editar-receta/'+receta.id}>Editar</Link>
         <Button variant="danger" onClick={eliminarReceta}>
           Borrar
         </Button>

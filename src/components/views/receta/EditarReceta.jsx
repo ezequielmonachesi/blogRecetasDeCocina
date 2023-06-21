@@ -1,5 +1,8 @@
+import { useEffect } from "react";
 import { Button, Form } from "react-bootstrap";
 import { useForm } from "react-hook-form";
+import { useParams } from "react-router-dom";
+import { getReceta } from "../../helpers/queries";
 
 const EditarReceta = () => {
   const {
@@ -7,7 +10,22 @@ const EditarReceta = () => {
     handleSubmit,
     formState: { errors },
     reset,
+    setValue
   } = useForm();
+
+  const {id} = useParams();
+
+  useEffect(()=>{
+    getReceta(id).then((respuesta)=>{
+      console.log(respuesta);
+      setValue('nombreReceta', respuesta.nombreReceta)
+      setValue('resenia',respuesta.resenia)
+      setValue('ingredientes', respuesta.ingredientes)
+      setValue('descripcion', respuesta.descripcion)
+      setValue('categoria', respuesta.categoria)
+      setValue('imagen', respuesta.imagen)
+    })
+  }, [])
 
   const onSubmit = (nuevaReceta) => {
     console.log(nuevaReceta);
