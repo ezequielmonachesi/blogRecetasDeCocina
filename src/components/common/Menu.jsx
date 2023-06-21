@@ -1,5 +1,6 @@
 import { Button, Container, Nav, Navbar } from "react-bootstrap";
 import { Link, NavLink, useNavigate } from "react-router-dom";
+import logo from "../../assets/blog-recetas-cocina.png"
 
 const Menu = ({ usuarioLogueado, setUsuarioLogueado }) => {
 
@@ -12,10 +13,10 @@ const Menu = ({ usuarioLogueado, setUsuarioLogueado }) => {
   }
 
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar bg="dark" variant="dark" expand="lg" className="fixed-top">
       <Container>
         <Navbar.Brand as={Link} to={"/"}>
-          Blog Recetas
+          <img src={logo} alt="logo" className="w-50"/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

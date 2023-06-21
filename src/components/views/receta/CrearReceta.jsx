@@ -150,7 +150,7 @@ const crearReceta = () => {
             {errors.categoria?.message}
           </Form.Text>
         </Form.Group>
-        <Button variant="primary" type="submit">
+        <Button variant="dark" type="submit">
           Guardar
         </Button>
       </Form>

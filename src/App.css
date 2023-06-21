@@ -6,10 +6,46 @@
 
 .mainSection{
   flex-grow: 1;
+  margin-top: 56px;
 }
 
 .banner{
   object-fit: cover;
-  height: 395px;
+  height: calc(100vh - 56px);
   width: 100%;
+  
+}
+
+.slide1 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(https://images.pexels.com/photos/6287283/pexels-photo-6287283.jpeg);
+  background-position: center;
+  background-repeat: no-repeat no-repeat;
+  background-size: cover;
+}
+.slide2 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-position: center;
+  background-repeat: no-repeat no-repeat;
+  background-size: cover;
+}
+.slide3 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(https://images.pexels.com/photos/1860205/pexels-photo-1860205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-position: center;
+  background-repeat: no-repeat no-repeat;
+  background-size: cover;
 }
