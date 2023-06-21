@@ -1,4 +1,5 @@
 const URL_usuario = import.meta.env.VITE_API_USUARIO;
+const URL_productos = import.meta.env.VITE_API_RECETA;
 
 export const login = async (usuario) => {
   try {
@@ -20,3 +21,14 @@ export const login = async (usuario) => {
     console.log(error);
   }
 };
+
+export const getRecetas = async () =>{
+    try{
+      const respuesta = await fetch (URL_productos);
+      const listaRecetas = await respuesta.json();
+      return listaRecetas;
+
+    }catch(error){
+      console.log(error);
+    }
+}
