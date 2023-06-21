@@ -48,3 +48,18 @@ export const agregarReceta = async (nuevaReceta) => {
     console.log(error);
   }
 };
+
+export const borrarReceta = async (nuevaReceta) => {
+  try {
+    const respuesta = await fetch(URL_productos, {
+      method: "POST",
+      headers: {
+        "Content-Type":"application/json"
+      },
+      body: JSON.stringify(nuevaReceta)
+    });
+    return respuesta;
+  } catch (error) {
+    console.log(error);
+  }
+};
