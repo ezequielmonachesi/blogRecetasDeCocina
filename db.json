@@ -35,6 +35,15 @@
       "descripcion": "Elimine la piel de las supremas y salpimente.\nRalle la cáscara del limón.\nBata los huevos con sal, la ralladura de limón, perejil picado, romero picado, tomillo picado.\nPase las supremas por harina, luego por los huevos batidos y a continuación por el panko.\nVuelva a pasa las supremas por el huevo y el panko.\nFría en abundante aceite caliente.\nEscurra sobre papel absorbente",
       "categoria": "carne",
       "id": 6
+    },
+    {
+      "nombreReceta": "Pizza napolitana ",
+      "resenia": "Este tipo de pizza ha conquistado el corazón de los porteños. Descubrí qué hay detrás de este fenómeno y 5 lugares en dónde degustarlas.",
+      "imagen": "https://elgourmet-assets.s3.amazonaws.com/wp-content/uploads/2023/03/twhe9zl0bn_pizza-1.jpg",
+      "ingredientes": "Tomate, Queso, Harina, Agua, Sal, Pimienta, Salsa de Tomate.",
+      "descripcion": "Empezaremos nuestra pizza casera por la masa. Para ello, coloca la harina mezclada con la pizca de sal sobre la mesa y haz un hueco en el centro para darle forma de corona.\n\nCoge un bol y vierte el agua junto con el aceite y la levadura. Revuélvelo todo hasta disolver por completo la levadura y vierte la mezcla en el centro de la corona de harina.\n\nIntegra poco a poco los ingredientes hasta obtener una masa homogénea. Amasa durante 7 minutos sobre la mesa, haz una bola con la masa y cúbrela con papel film. Deja que repose durante 20 minutos.\n\nPasado el tiempo, estira la masa con la ayuda de un rodillo y pásala a una bandeja de horno previamente enharinada. Ahora es el momento de rellenarla.\n\n\nExtiende la salsa de tomate sobre la base de la pizza dejando libre un borde de 1 cm. Luego, distribuye la mozzarella rallada por todas partes y hornea la pizza durante 10 minutos a 170ºC. Retírala y cúbrela con tomates cortados en rodajas.\n\nAñade sal al gusto, reparte el ajo y el perejil picados. Incorpora las aceitunas y rocia la pizza casera con un hilo de aceite de oliva. Hornéala durante 5 minutos más. Retira la pizza napolitana y sírvela.",
+      "categoria": "pizza",
+      "id": 7
     }
   ],
   "usuarios": [
