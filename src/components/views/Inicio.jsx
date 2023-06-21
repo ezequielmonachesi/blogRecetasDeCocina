@@ -39,7 +39,7 @@ const Inicio = () => {
       <Container>
         <h1 className="display-4 mt-5">Nuestras Recetas</h1>
         <hr />
-        <Row className="gy-4 mt-5 justify-content-center">
+        <Row className="gy-4 mt-2 justify-content-center">
           {listaRecetas.map((receta) => (
             <CardReceta receta={receta} key={receta.id}></CardReceta>
           ))}

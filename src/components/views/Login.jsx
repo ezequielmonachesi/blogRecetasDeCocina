@@ -33,7 +33,7 @@ const Login = ({setUsuarioLogueado}) => {
   return (
     <Container className="mainSection">
       <Card className="my-5">
-        <Card.Header as="h5">Login</Card.Header>
+        <Card.Header as="h5" className="bg-dark text-light">Login</Card.Header>
         <Card.Body>
           <Form onSubmit={handleSubmit(onSubmit)}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -73,7 +73,7 @@ const Login = ({setUsuarioLogueado}) => {
                 {errors.password?.message}
               </Form.Text>
             </Form.Group>
-            <Button variant="primary" type="submit">
+            <Button variant="dark" type="submit">
               Ingresar
             </Button>
           </Form>
