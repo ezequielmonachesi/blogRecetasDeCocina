@@ -1,14 +1,13 @@
 import { Button } from "react-bootstrap";
 
 
-const ItemReceta = () => {
+const ItemReceta = ({receta}) => {
    return (
     <tr>
-      {/* <td>{props.producto._id}</td> */}
-      <td>1</td>
-      <td>Pizza</td>
-      <td>https://images.pexels.com/photos/6802983/pexels-photo-6802983.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1</td>
-      <td>Comida</td>
+      <td>{receta.id}</td>
+      <td>{receta.nombreReceta}</td>
+      <td>{receta.imagen}</td>
+      <td>{receta.categoria}</td>
       <td>
         <Button className="btn btn-warning">Editar</Button>
         <Button variant="danger">
