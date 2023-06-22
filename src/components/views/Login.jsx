@@ -32,7 +32,7 @@ const Login = ({setUsuarioLogueado}) => {
 
   return (
     <Container className="mainSection">
-      <Card className="my-5">
+      <Card className="my-5 shadow">
         <Card.Header as="h5" className="bg-dark text-light">Login</Card.Header>
         <Card.Body>
           <Form onSubmit={handleSubmit(onSubmit)}>

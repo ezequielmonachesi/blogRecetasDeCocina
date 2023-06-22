@@ -16,8 +16,8 @@ const DetalleReceta = () => {
   },[])
 
   return (
-    <Container className="my-3 mainSection">
-      <Card>
+    <Container className="mainSection">
+      <Card className="mt-5">
         <Row>
           <Col md={6}>
             <Card.Img
@@ -35,7 +35,9 @@ const DetalleReceta = () => {
               <span className="text-danger fw-semibold ">Categoria:</span> {unaReceta.categoria}
               <br />
               <span className="text-danger fw-semibold ">Ingredientes:</span> {unaReceta.ingredientes}</Card.Text>
+              <hr />
               <Card.Text>
+                <h6>Pasos a seguir</h6>
                 {unaReceta.descripcion}
               </Card.Text>
             </Card.Body>
