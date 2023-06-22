@@ -1,5 +1,5 @@
 const URL_usuario = import.meta.env.VITE_API_USUARIO;
-const URL_productos = import.meta.env.VITE_API_RECETA;
+const URL_recetas = import.meta.env.VITE_API_RECETA;
 
 export const login = async (usuario) => {
   try {
@@ -24,7 +24,7 @@ export const login = async (usuario) => {
 
 export const getRecetas = async () => {
   try {
-    const respuesta = await fetch(URL_productos);
+    const respuesta = await fetch(URL_recetas);
     const listaRecetas = await respuesta.json();
     return listaRecetas;
   } catch (error) {
@@ -34,7 +34,7 @@ export const getRecetas = async () => {
 
 export const agregarReceta = async (nuevaReceta) => {
   try {
-    const respuesta = await fetch(URL_productos, {
+    const respuesta = await fetch(URL_recetas, {
       method: "POST",
       headers: {
         "Content-Type":"application/json"
@@ -49,7 +49,7 @@ export const agregarReceta = async (nuevaReceta) => {
 
 export const borrarReceta = async (id) => {
   try {
-    const respuesta = await fetch(URL_productos+'/'+id, {
+    const respuesta = await fetch(URL_recetas+'/'+id, {
       method: "DELETE"});
     return respuesta;
   } catch (error) {
@@ -59,7 +59,7 @@ export const borrarReceta = async (id) => {
 
 export const getReceta = async (id) => {
   try {
-    const respuesta = await fetch(URL_productos+'/'+id);
+    const respuesta = await fetch(URL_recetas+'/'+id);
     const receta = await respuesta.json();
     return receta;
   } catch (error) {
@@ -69,7 +69,7 @@ export const getReceta = async (id) => {
 
 export const editarReceta = async (nuevaReceta, id) => {
   try {
-    const respuesta = await fetch(URL_productos+'/'+id, {
+    const respuesta = await fetch(URL_recetas+'/'+id, {
       method: "PUT",
       headers: {
         "Content-Type":"application/json"

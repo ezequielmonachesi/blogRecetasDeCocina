@@ -1,4 +1,5 @@
 import { Button, Container, Form } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Registro = () => {
   return (
@@ -24,12 +25,12 @@ const Registro = () => {
                 />
               </Form.Group>
               <div className="row">
-                <Button
+                <Link
                   className="btn btn-dark btn-lg btn-block mb-2"
-                  type="submit"
+                  to={'/error404'}
                 >
                   Registrar
-                </Button>
+                </Link>
               </div>
             </Form>
           </div>
