@@ -1,5 +1,5 @@
 import { Carousel, Container, Row } from "react-bootstrap";
-import CardReceta from "./receta/cardReceta";
+import CardReceta from "./receta/CardReceta";
 import { useEffect, useState } from "react";
 import { getRecetas } from "../helpers/queries";
 const Inicio = () => {
