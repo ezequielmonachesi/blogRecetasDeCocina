@@ -3,8 +3,8 @@ import { Button, Container, Form } from "react-bootstrap";
 const Registro = () => {
   return (
     <Container className="mainSection">
-      <div>
-        <h3 className="text-center bg-dark text-light mt-5">Registro</h3>
+      <div className="shadow mt-5 rounded-4">
+        <h3 className="text-center bg-dark text-light rounded-top-2">Registro</h3>
         <div className="row justify-content-center">
           <div className="col-12 col-sm-8 col-md-6 col-xl-4">
             <Form>
